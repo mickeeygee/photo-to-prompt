@@ -2,6 +2,8 @@
 
 Turns a folder of reference photos into detailed image-generation prompts for **your own fictional character**, using a local vision model in LM Studio. Everything runs on your PC. No cloud, no API keys.
 
+> **For fictional characters only.** Use photos you have the right to use as inspiration, never recreate a real person, keep characters adult and content within your platform's rules, and don't present AI images as real photos. Label AI content when you post it.
+
 For each photo it writes a prompt covering the scene, lighting, outfit, pose, framing and photo style. It never describes the person in the photo, and it skips anyone who looks under 18.
 
 ## Setup
