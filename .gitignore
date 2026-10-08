@@ -1,0 +1,7 @@
+# your personal settings and data stay local
+user_settings.json
+output/
+photos/*
+!photos/.gitkeep
+__pycache__/
+*.pyc
