@@ -5,3 +5,4 @@ photos/*
 !photos/.gitkeep
 __pycache__/
 *.pyc
+workflow_api.json

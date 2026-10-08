@@ -43,6 +43,17 @@ DEFAULTS = {
     "photos_folder": "photos",
     "output_folder": "output",
     "disable_thinking": True,
+    # ComfyUI + watch mode (setup.py fills these in; leave comfyui_workflow empty for prompts only)
+    "comfyui_url": "http://127.0.0.1:8188",
+    "comfyui_workflow": "",
+    "comfyui_prompt_node": "",
+    "comfyui_prompt_input": "text",
+    "comfyui_seed_inputs": [],
+    "comfyui_timeout_s": 900,
+    "images_per_photo": 1,
+    "gpu_swap": True,
+    "min_free_vram_mb": 6000,
+    "watch_interval_s": 5,
     "hair_styles": ["worn down loose and natural", "worn down and slightly tousled", "tucked behind one ear",
                     "swept over one shoulder", "swept to one side"],
 }
